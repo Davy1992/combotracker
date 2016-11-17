@@ -4,23 +4,23 @@ irc bot responsible for recording chat combos in [#destinyecho](https://qchat.ri
 
 ## Installation
 
-* ### Get dependencies
+### Get dependencies
 ```console
 $ go get github.com/BurntSushi/toml
 $ go get github.com/thoj/go-ircevent
 $ go get github.com/go-sql-driver/mysql
 ```
 
-* ### Compile packages and dependencies
+### Compile packages and dependencies
 ```console
 $ go build
 ```
 
-* ### Update configuration file ```config.toml```
+### Update configuration file ```config.toml```
 
 ## Usage
 
-* ### Run the executable
+### Run the executable
 
 ## TODO
 - [ ] Improve comments
