@@ -1,0 +1,18 @@
+debug = false
+mincombo = 2                                # Store combos above or equal to this value
+emotesurl = "https://www.destiny.gg/chat/emotes.json"
+
+[database]
+username = ""
+password = ""
+net = "unix"                                # "unix" or "tcp"
+addr = "/var/lib/mysql/mysql.sock"          # "/var/lib/mysql/mysql.sock" or "127.0.0.1"
+name = ""                                   # Database name
+
+[irc]
+secure = true
+server = "irc.rizon.net:6697"               # Make sure to use the appropriate port for secure / insecure connection
+channel = "#destinyecho"
+nick = "ComboTracker"
+password = ""                               # Used for Ident
+user = "Alpha"
